@@ -23,6 +23,7 @@ const createNewsLetterHtml = (jsonData) => {
 }
 
 const response = await getLastProductHunt(NB_PRODUCT)
+console.log(response)
 if (response !== ERROR_MESSAGE){
     const dataProductHunt = JSON.parse(response);
     const newHTMLFile = createNewsLetterHtml(dataProductHunt)

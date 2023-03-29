@@ -4,42 +4,57 @@
       "edges": [
         {
           "node": {
-            "id": "383831",
-            "name": "GoRetro",
-            "tagline": "Sprint management solution to boost engineering delivery",
-            "url": "https://www.producthunt.com/posts/goretro-2?utm_campaign=producthunt-api\u0026utm_medium=api-v2\u0026utm_source=Application%3A+Newsletter+%28ID%3A+96878%29"
+            "id": "386332",
+            "name": "Convoy",
+            "tagline": "High-performance open-source webhooks gateway",
+            "url": "https://www.producthunt.com/posts/convoy-4?utm_campaign=producthunt-api\u0026utm_medium=api-v2\u0026utm_source=Application%3A+Newsletter+%28ID%3A+96878%29",
+            "thumbnail": {
+              "url": "https://ph-files.imgix.net/b750b8c3-a1e0-4817-9b75-44d4398b3029.gif?auto=format"
+            }
           }
         },
         {
           "node": {
-            "id": "386233",
-            "name": "Adrenaline",
-            "tagline": "AI that makes you an expert on any codebase",
-            "url": "https://www.producthunt.com/posts/adrenaline-2?utm_campaign=producthunt-api\u0026utm_medium=api-v2\u0026utm_source=Application%3A+Newsletter+%28ID%3A+96878%29"
+            "id": "386338",
+            "name": "Bearer CLI",
+            "tagline": "Free \u0026 open source security scanner for developers",
+            "url": "https://www.producthunt.com/posts/bearer-cli?utm_campaign=producthunt-api\u0026utm_medium=api-v2\u0026utm_source=Application%3A+Newsletter+%28ID%3A+96878%29",
+            "thumbnail": {
+              "url": "https://ph-files.imgix.net/4bf08c9d-28ec-44ea-acc7-ef112760e691.gif?auto=format"
+            }
           }
         },
         {
           "node": {
-            "id": "385699",
-            "name": "Volta",
-            "tagline": "Supercharged GitHub Experience",
-            "url": "https://www.producthunt.com/posts/volta-5?utm_campaign=producthunt-api\u0026utm_medium=api-v2\u0026utm_source=Application%3A+Newsletter+%28ID%3A+96878%29"
+            "id": "386359",
+            "name": "Cicada",
+            "tagline": "Build CI/CD pipelines in TypeScript and run them anywhere.",
+            "url": "https://www.producthunt.com/posts/cicada-3?utm_campaign=producthunt-api\u0026utm_medium=api-v2\u0026utm_source=Application%3A+Newsletter+%28ID%3A+96878%29",
+            "thumbnail": {
+              "url": "https://ph-files.imgix.net/6074fb2a-b78a-4b66-b5f1-eda6c0135205.jpeg?auto=format"
+            }
           }
         },
         {
           "node": {
-            "id": "386225",
-            "name": "TimeGPT",
-            "tagline": "Streamline your time and boost productivity with TimeGPT",
-            "url": "https://www.producthunt.com/posts/timegpt?utm_campaign=producthunt-api\u0026utm_medium=api-v2\u0026utm_source=Application%3A+Newsletter+%28ID%3A+96878%29"
+            "id": "386406",
+            "name": "Corporate UI Dashboard Pro",
+            "tagline": "Premium bootstrap 5 admin template",
+            "url": "https://www.producthunt.com/posts/corporate-ui-dashboard-pro?utm_campaign=producthunt-api\u0026utm_medium=api-v2\u0026utm_source=Application%3A+Newsletter+%28ID%3A+96878%29",
+            "thumbnail": {
+              "url": "https://ph-files.imgix.net/af0dc1e9-60a7-4a3d-a4b8-8e365fb3866b.gif?auto=format"
+            }
           }
         },
         {
           "node": {
-            "id": "386118",
-            "name": "Haicker News",
-            "tagline": "Today's top AI stories from Hacker News",
-            "url": "https://www.producthunt.com/posts/haicker-news?utm_campaign=producthunt-api\u0026utm_medium=api-v2\u0026utm_source=Application%3A+Newsletter+%28ID%3A+96878%29"
+            "id": "386287",
+            "name": "Million.js v2.0.0",
+            "tagline": "An extremely fast virtual DOM - React up to 70% faster!",
+            "url": "https://www.producthunt.com/posts/million-js-v2-0-0?utm_campaign=producthunt-api\u0026utm_medium=api-v2\u0026utm_source=Application%3A+Newsletter+%28ID%3A+96878%29",
+            "thumbnail": {
+              "url": "https://ph-files.imgix.net/7581edcc-235e-49c6-90cd-a0ac0fdfe696.png?auto=format"
+            }
           }
         }
       ]
