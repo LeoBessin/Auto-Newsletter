@@ -1,0 +1,1 @@
+# Script d'automatisation de génération de NewsLetter
