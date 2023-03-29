@@ -11,7 +11,6 @@ const createNewsLetterHtml = (jsonData) => {
     const listPosts = jsonData.data.posts.edges;
     for (let i=0;i<NB_PRODUCT;i++){
         let postObject = listPosts[i].node;
-        console.log(postObject);
         let title = `<h2>${postObject.name}</h2>`;
         let description = `<p>${postObject.tagline}</p>`;
         let url = `<a href="${postObject.url}" target="_blank">Website</a>`;
