@@ -5,6 +5,6 @@
 **École : *[Sup de Vinci](https://www.supdevinci.fr/)***
 
 ## Explication
-Le script utilise l'api de ProductHunt pour récupérer les 5 outils les plus populaires en rapport avec "developer-tools".
+Le script utilise l'api de [ProductHunt](https://api.producthunt.com/v2/docs) pour récupérer les 5 outils les plus populaires en rapport avec "developer-tools".
 Il remplace ensuite une partie d'une template pour ajouter un tableau avec ces 5 produits.
 Une NewsLetter automatique est donc générée automatiquement.
