@@ -1,8 +1,8 @@
 # Script d'automatisation de génération de NewsLetter
 ## Contexte
-**Cours de *Web Communication***
-**Formateur :*Arthur Lemasson***
-**École :*Sup de Vinci***
+**Cours de *Web Communication***\n
+**Formateur : *[Arthur Lemasson](https://www.linkedin.com/in/arthur-lemasson-0b6589b1/)***\n
+**École : *[Sup de Vinci](https://www.supdevinci.fr/)***
 
 ## Explication
 Le script utilise l'api de ProductHunt pour récupérer les 5 outils les plus populaires en rapport avec "developer-tools".
