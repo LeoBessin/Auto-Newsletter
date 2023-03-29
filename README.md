@@ -1,7 +1,7 @@
 # Script d'automatisation de génération de NewsLetter
 ## Contexte
-**Cours de *Web Communication***\n
-**Formateur : *[Arthur Lemasson](https://www.linkedin.com/in/arthur-lemasson-0b6589b1/)***\n
+**Cours de *Web Communication***\
+**Formateur : *[Arthur Lemasson](https://www.linkedin.com/in/arthur-lemasson-0b6589b1/)***\
 **École : *[Sup de Vinci](https://www.supdevinci.fr/)***
 
 ## Explication
