@@ -1,0 +1,48 @@
+{
+  "data": {
+    "posts": {
+      "edges": [
+        {
+          "node": {
+            "id": "383831",
+            "name": "GoRetro",
+            "tagline": "Sprint management solution to boost engineering delivery",
+            "url": "https://www.producthunt.com/posts/goretro-2?utm_campaign=producthunt-api\u0026utm_medium=api-v2\u0026utm_source=Application%3A+Newsletter+%28ID%3A+96878%29"
+          }
+        },
+        {
+          "node": {
+            "id": "386233",
+            "name": "Adrenaline",
+            "tagline": "AI that makes you an expert on any codebase",
+            "url": "https://www.producthunt.com/posts/adrenaline-2?utm_campaign=producthunt-api\u0026utm_medium=api-v2\u0026utm_source=Application%3A+Newsletter+%28ID%3A+96878%29"
+          }
+        },
+        {
+          "node": {
+            "id": "385699",
+            "name": "Volta",
+            "tagline": "Supercharged GitHub Experience",
+            "url": "https://www.producthunt.com/posts/volta-5?utm_campaign=producthunt-api\u0026utm_medium=api-v2\u0026utm_source=Application%3A+Newsletter+%28ID%3A+96878%29"
+          }
+        },
+        {
+          "node": {
+            "id": "386225",
+            "name": "TimeGPT",
+            "tagline": "Streamline your time and boost productivity with TimeGPT",
+            "url": "https://www.producthunt.com/posts/timegpt?utm_campaign=producthunt-api\u0026utm_medium=api-v2\u0026utm_source=Application%3A+Newsletter+%28ID%3A+96878%29"
+          }
+        },
+        {
+          "node": {
+            "id": "386118",
+            "name": "Haicker News",
+            "tagline": "Today's top AI stories from Hacker News",
+            "url": "https://www.producthunt.com/posts/haicker-news?utm_campaign=producthunt-api\u0026utm_medium=api-v2\u0026utm_source=Application%3A+Newsletter+%28ID%3A+96878%29"
+          }
+        }
+      ]
+    }
+  }
+}
