@@ -2,7 +2,7 @@ import { PRODUCTHUNT_TOKEN } from "./apiToken.mjs";
 
 export const ERROR_MESSAGE = "Error";
 
-var myHeaders = new Headers();
+let myHeaders = new Headers();
 myHeaders.append("Accept", "application/json");
 myHeaders.append("Content-Type", "application/json");
 myHeaders.append("Host", "api.producthunt.com");
