@@ -5,7 +5,11 @@
     <meta name="format-detection" content="telephone=no" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
-    <style></style>
+    <style>
+        * {
+            max-width: 600px;
+        }
+    </style>
 </head>
 <body
         style="
@@ -15,16 +19,18 @@
       background-color: #191919;
       font-family: 'Proxima Nova Black', sans-serif;
       max-width: 600px;
+
     "
 >
 <table
-        style="width: 600px; height: 100%; border-spacing: 0; max-width: 600px"
+        style="width: min(600px,100vh); height: 100%; border-spacing: 0; max-width: 600px"
 >
-    <tbody style="width: 600px">
+    <tbody style="width: min(600px,100vh);max-width: 600px">
     <tr
             id="header"
             style="
-            width: 600px;
+            width: min(600px,100vh);
+            max-width: 600px;
             height: 450px;
             background-color: #e63946;
             display: flex;
@@ -32,11 +38,13 @@
             justify-content: center;
           "
     >
-        <td style="max-width: 600px">
+        <td style="position: absolute;z-index: 1">
+        </td>
+        <td style="max-width: 600px;z-index: 2">
             <table
                     style="
-                max-width: 600px;
-                width: 550px;
+                max-width: 550px;
+                width: min(550px,95vh);
                 height: 100%;
                 display: flex;
                 align-items: center;
@@ -82,7 +90,7 @@
                     <td
                             style="
                       display: flex;
-                      align-items: center;
+                      align-items: start;
                       justify-content: center;
                       flex-direction: column;
                       font-weight: bold;
@@ -92,14 +100,19 @@
                         <h1
                                 style="
                         font-family: 'Proxima Nova bold', sans-serif;
-                        font-size: 100px;
+                        font-size: min(17vw,100px);;
                         margin: 0;
                       "
                         >
-                            DevTools Insider_
+                            DevTools
                         </h1>
-                        <h4>
-                            The Latest and Greatest Tools and Resources for Developers.
+                        <h1 style="
+                        font-family: 'Proxima Nova bold', sans-serif;
+                        font-size: min(17vw,100px);;
+                        margin: 0;
+                      ">Insider_</h1>
+                        <h4 style="font-size: min(18px,3vh)">
+                            ️The Latest and Greatest Tools and Resources for Developers.
                         </h4>
                     </td>
                 </tr>
@@ -112,22 +125,25 @@
             style="
             min-height: 450px;
             max-width: 600px;
+            width: min(600px,100vh);
             background-color: #f1faee;
             display: flex;
             justify-content: center;
             align-items: center;
           "
     >
-        <td style="margin: 50px">
+        <td style="margin: 50px;display: flex; justify-content: center; align-items: center;flex-direction: column">
+            <h1 style="font-size: min(7vh,45px);height: 10px">🚀 Top Product </h1>
+            <h4 style="font-size: min(4vh,25px);height: 10px">🔍 Of the week_ </h4>
             /*REPLACE_HERE*/
         </td>
     </tr>
-    <tr id="about" style="height: 450px; width: 600px">
+    <tr id="about" style="height: 450px; width: min(600px,100vh);max-width: 600px">
         <td style="max-width: 600px">
-            <table style="width: 600px; height: 100%; border-spacing: 0">
+            <table style="width: min(600px,100vh); height: 100%; border-spacing: 0;max-width: 600px">
                 <tbody>
                 <tr>
-                    <td style="width: 300px; background-color: #a8dadc">
+                    <td style="width: min(300px,50vh); background-color: #a8dadc;max-width: 300px">
                         <table
                                 style="
                         display: flex;
@@ -259,7 +275,7 @@
                             </tr>
                         </table>
                     </td>
-                    <td style="width: 300px; background-color: #457b9d">
+                    <td style="width: min(300px,50vh); background-color: #457b9d;max-width: 300px">
                         <table
                                 style="
                         display: flex;
@@ -280,7 +296,7 @@
                                     <h2
                                             style="
                               font-weight: bolder;
-                              font-size: 30px;
+                              font-size: min(30px,5vh);
                               height: 0;
                             "
                                     >
@@ -291,7 +307,7 @@
                               padding: 10px;
                               text-align: justify;
                               font-family: 'Proxima Nova Black', sans-serif;
-                              font-size: 20px;
+                              font-size: min(20px,4vh);
                             "
                                     >
                                         Étudiant en informatique passionné par le
@@ -314,7 +330,7 @@
     </tr>
     <tr
             id="footer"
-            style="max-width: 600px; height: 250px; background-color: #1d3557"
+            style="max-width: 600px; height: 250px; background-color: #1d3557;width: min(600px,100vh)"
     >
         <td>
             <table

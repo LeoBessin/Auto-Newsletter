@@ -5,7 +5,11 @@
     <meta name="format-detection" content="telephone=no" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title></title>
-    <style></style>
+    <style>
+        * {
+            max-width: 600px;
+        }
+    </style>
 </head>
 <body
         style="
@@ -15,16 +19,18 @@
       background-color: #191919;
       font-family: 'Proxima Nova Black', sans-serif;
       max-width: 600px;
+
     "
 >
 <table
-        style="width: 600px; height: 100%; border-spacing: 0; max-width: 600px"
+        style="width: min(600px,100vh); height: 100%; border-spacing: 0; max-width: 600px"
 >
-    <tbody style="width: 600px">
+    <tbody style="width: min(600px,100vh);max-width: 600px">
     <tr
             id="header"
             style="
-            width: 600px;
+            width: min(600px,100vh);
+            max-width: 600px;
             height: 450px;
             background-color: #e63946;
             display: flex;
@@ -32,11 +38,13 @@
             justify-content: center;
           "
     >
-        <td style="max-width: 600px">
+        <td style="position: absolute;z-index: 1">
+        </td>
+        <td style="max-width: 600px;z-index: 2">
             <table
                     style="
-                max-width: 600px;
-                width: 550px;
+                max-width: 550px;
+                width: min(550px,95vh);
                 height: 100%;
                 display: flex;
                 align-items: center;
@@ -82,7 +90,7 @@
                     <td
                             style="
                       display: flex;
-                      align-items: center;
+                      align-items: start;
                       justify-content: center;
                       flex-direction: column;
                       font-weight: bold;
@@ -92,14 +100,19 @@
                         <h1
                                 style="
                         font-family: 'Proxima Nova bold', sans-serif;
-                        font-size: 100px;
+                        font-size: min(17vw,100px);;
                         margin: 0;
                       "
                         >
-                            DevTools Insider_
+                            DevTools
                         </h1>
-                        <h4>
-                            The Latest and Greatest Tools and Resources for Developers.
+                        <h1 style="
+                        font-family: 'Proxima Nova bold', sans-serif;
+                        font-size: min(17vw,100px);;
+                        margin: 0;
+                      ">Insider_</h1>
+                        <h4 style="font-size: min(18px,3vh)">
+                            ️The Latest and Greatest Tools and Resources for Developers.
                         </h4>
                     </td>
                 </tr>
@@ -112,22 +125,25 @@
             style="
             min-height: 450px;
             max-width: 600px;
+            width: min(600px,100vh);
             background-color: #f1faee;
             display: flex;
             justify-content: center;
             align-items: center;
           "
     >
-        <td style="margin: 50px">
-            <div style=" width: 500px; height: 300px; margin: 50px; border-radius: 38px; background: #f1faee; box-shadow: 28px 28px 30px #c3cbc1, -28px -28px 30px #ffffff; display: flex; justify-content: center; align-items: center; padding: 10px; " > <table style=" display: flex; justify-content: center; align-items: center; flex-direction: column; " > <tbody> <tr style=" display: flex; align-items: center; justify-content: center; flex-direction: column; " > <td><h1>🔥 1 - Shuffle Assistant</h1></td> <td style="margin-top: -30px"> <h3>Generate website templates by engaging with ChatGPT</h3> </td> </tr> <tr> <td> <img style=" border-radius: 15px; background: #f1faee; box-shadow: 18px 18px 30px #c3cbc1, -18px -18px 30px #ffffff; " width="150px" src="https://ph-files.imgix.net/84d91104-bfaf-4d23-afbd-5ce47fc6d58c.gif?auto=format" alt="Product Logo" /> </td> <td style="flex-grow: 2; padding: 10px; text-align: justify" > <p> Create professional and eye-catching website templates with our AI-powered visual editor fuelled by ChatGPT. Shuffle Assistant works with Tailwind CSS, Bootstrap, and Bulma. </p> </td> <td> <a href="https://www.producthunt.com/posts/shuffle-assistant?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Newsletter+%28ID%3A+96878%29" target="_blank" > <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" style="margin-top: 100px" > <path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM9.71002 19.6674C8.74743 17.6259 8.15732 15.3742 8.02731 13H4.06189C4.458 16.1765 6.71639 18.7747 9.71002 19.6674ZM10.0307 13C10.1811 15.4388 10.8778 17.7297 12 19.752C13.1222 17.7297 13.8189 15.4388 13.9693 13H10.0307ZM19.9381 13H15.9727C15.8427 15.3742 15.2526 17.6259 14.29 19.6674C17.2836 18.7747 19.542 16.1765 19.9381 13ZM4.06189 11H8.02731C8.15732 8.62577 8.74743 6.37407 9.71002 4.33256C6.71639 5.22533 4.458 7.8235 4.06189 11ZM10.0307 11H13.9693C13.8189 8.56122 13.1222 6.27025 12 4.24799C10.8778 6.27025 10.1811 8.56122 10.0307 11ZM14.29 4.33256C15.2526 6.37407 15.8427 8.62577 15.9727 11H19.9381C19.542 7.8235 17.2836 5.22533 14.29 4.33256Z" fill="#000" ></path></svg ></a> </td> </tr> </tbody> </table> </div><div style=" width: 500px; height: 300px; margin: 50px; border-radius: 38px; background: #f1faee; box-shadow: 28px 28px 30px #c3cbc1, -28px -28px 30px #ffffff; display: flex; justify-content: center; align-items: center; padding: 10px; " > <table style=" display: flex; justify-content: center; align-items: center; flex-direction: column; " > <tbody> <tr style=" display: flex; align-items: center; justify-content: center; flex-direction: column; " > <td><h1>🔥 2 - Blueprints by Zeet</h1></td> <td style="margin-top: -30px"> <h3>Create self-service developer platforms for your cloud(s)</h3> </td> </tr> <tr> <td> <img style=" border-radius: 15px; background: #f1faee; box-shadow: 18px 18px 30px #c3cbc1, -18px -18px 30px #ffffff; " width="150px" src="https://ph-files.imgix.net/49a36efb-87b5-423a-b508-35c747cd506f.jpeg?auto=format" alt="Product Logo" /> </td> <td style="flex-grow: 2; padding: 10px; text-align: justify" > <p> The Zeet Developer Platform is a centralized infrastructure control plane that encourages self-service infrastructure through delightful interfaces. Turn your IaC packages into Blueprints, so any member of your team can manage the underlying resources. </p> </td> <td> <a href="https://www.producthunt.com/posts/blueprints-by-zeet?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Newsletter+%28ID%3A+96878%29" target="_blank" > <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" style="margin-top: 100px" > <path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM9.71002 19.6674C8.74743 17.6259 8.15732 15.3742 8.02731 13H4.06189C4.458 16.1765 6.71639 18.7747 9.71002 19.6674ZM10.0307 13C10.1811 15.4388 10.8778 17.7297 12 19.752C13.1222 17.7297 13.8189 15.4388 13.9693 13H10.0307ZM19.9381 13H15.9727C15.8427 15.3742 15.2526 17.6259 14.29 19.6674C17.2836 18.7747 19.542 16.1765 19.9381 13ZM4.06189 11H8.02731C8.15732 8.62577 8.74743 6.37407 9.71002 4.33256C6.71639 5.22533 4.458 7.8235 4.06189 11ZM10.0307 11H13.9693C13.8189 8.56122 13.1222 6.27025 12 4.24799C10.8778 6.27025 10.1811 8.56122 10.0307 11ZM14.29 4.33256C15.2526 6.37407 15.8427 8.62577 15.9727 11H19.9381C19.542 7.8235 17.2836 5.22533 14.29 4.33256Z" fill="#000" ></path></svg ></a> </td> </tr> </tbody> </table> </div><div style=" width: 500px; height: 300px; margin: 50px; border-radius: 38px; background: #f1faee; box-shadow: 28px 28px 30px #c3cbc1, -28px -28px 30px #ffffff; display: flex; justify-content: center; align-items: center; padding: 10px; " > <table style=" display: flex; justify-content: center; align-items: center; flex-direction: column; " > <tbody> <tr style=" display: flex; align-items: center; justify-content: center; flex-direction: column; " > <td><h1>🔥 3 - Autometrics</h1></td> <td style="margin-top: -30px"> <h3>Developer-first observability framework</h3> </td> </tr> <tr> <td> <img style=" border-radius: 15px; background: #f1faee; box-shadow: 18px 18px 30px #c3cbc1, -18px -18px 30px #ffffff; " width="150px" src="https://ph-files.imgix.net/210a6e4b-506b-4afd-85b9-f30947641940.png?auto=format" alt="Product Logo" /> </td> <td style="flex-grow: 2; padding: 10px; text-align: justify" > <p> Autometrics is an open source framework that makes it easy to understand the error rate, response time, and production usage of any function in your code. Available in Rust, TypeScript, Python and Go. </p> </td> <td> <a href="https://www.producthunt.com/posts/autometrics-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Newsletter+%28ID%3A+96878%29" target="_blank" > <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" style="margin-top: 100px" > <path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM9.71002 19.6674C8.74743 17.6259 8.15732 15.3742 8.02731 13H4.06189C4.458 16.1765 6.71639 18.7747 9.71002 19.6674ZM10.0307 13C10.1811 15.4388 10.8778 17.7297 12 19.752C13.1222 17.7297 13.8189 15.4388 13.9693 13H10.0307ZM19.9381 13H15.9727C15.8427 15.3742 15.2526 17.6259 14.29 19.6674C17.2836 18.7747 19.542 16.1765 19.9381 13ZM4.06189 11H8.02731C8.15732 8.62577 8.74743 6.37407 9.71002 4.33256C6.71639 5.22533 4.458 7.8235 4.06189 11ZM10.0307 11H13.9693C13.8189 8.56122 13.1222 6.27025 12 4.24799C10.8778 6.27025 10.1811 8.56122 10.0307 11ZM14.29 4.33256C15.2526 6.37407 15.8427 8.62577 15.9727 11H19.9381C19.542 7.8235 17.2836 5.22533 14.29 4.33256Z" fill="#000" ></path></svg ></a> </td> </tr> </tbody> </table> </div><div style=" width: 500px; height: 300px; margin: 50px; border-radius: 38px; background: #f1faee; box-shadow: 28px 28px 30px #c3cbc1, -28px -28px 30px #ffffff; display: flex; justify-content: center; align-items: center; padding: 10px; " > <table style=" display: flex; justify-content: center; align-items: center; flex-direction: column; " > <tbody> <tr style=" display: flex; align-items: center; justify-content: center; flex-direction: column; " > <td><h1>🔥 4 - SAASFE</h1></td> <td style="margin-top: -30px"> <h3>Collect next big feature idea for your product - SAASFE</h3> </td> </tr> <tr> <td> <img style=" border-radius: 15px; background: #f1faee; box-shadow: 18px 18px 30px #c3cbc1, -18px -18px 30px #ffffff; " width="150px" src="https://ph-files.imgix.net/9f61913e-3d00-441a-a615-66bc53414592.png?auto=format" alt="Product Logo" /> </td> <td style="flex-grow: 2; padding: 10px; text-align: justify" > <p> SAASFE is the ultimate platform for SaaS product management, with SAASFE, you can easily gather feedback from your customers and team, prioritize your feature requests, and communicate your product updates to your users. </p> </td> <td> <a href="https://www.producthunt.com/posts/saasfe?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Newsletter+%28ID%3A+96878%29" target="_blank" > <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" style="margin-top: 100px" > <path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM9.71002 19.6674C8.74743 17.6259 8.15732 15.3742 8.02731 13H4.06189C4.458 16.1765 6.71639 18.7747 9.71002 19.6674ZM10.0307 13C10.1811 15.4388 10.8778 17.7297 12 19.752C13.1222 17.7297 13.8189 15.4388 13.9693 13H10.0307ZM19.9381 13H15.9727C15.8427 15.3742 15.2526 17.6259 14.29 19.6674C17.2836 18.7747 19.542 16.1765 19.9381 13ZM4.06189 11H8.02731C8.15732 8.62577 8.74743 6.37407 9.71002 4.33256C6.71639 5.22533 4.458 7.8235 4.06189 11ZM10.0307 11H13.9693C13.8189 8.56122 13.1222 6.27025 12 4.24799C10.8778 6.27025 10.1811 8.56122 10.0307 11ZM14.29 4.33256C15.2526 6.37407 15.8427 8.62577 15.9727 11H19.9381C19.542 7.8235 17.2836 5.22533 14.29 4.33256Z" fill="#000" ></path></svg ></a> </td> </tr> </tbody> </table> </div><div style=" width: 500px; height: 300px; margin: 50px; border-radius: 38px; background: #f1faee; box-shadow: 28px 28px 30px #c3cbc1, -28px -28px 30px #ffffff; display: flex; justify-content: center; align-items: center; padding: 10px; " > <table style=" display: flex; justify-content: center; align-items: center; flex-direction: column; " > <tbody> <tr style=" display: flex; align-items: center; justify-content: center; flex-direction: column; " > <td><h1>🔥 5 - Findmyaitool</h1></td> <td style="margin-top: -30px"> <h3>Discover AI tools for your business</h3> </td> </tr> <tr> <td> <img style=" border-radius: 15px; background: #f1faee; box-shadow: 18px 18px 30px #c3cbc1, -18px -18px 30px #ffffff; " width="150px" src="https://ph-files.imgix.net/8de4d250-f093-4167-a562-42c4af5ba1a1.png?auto=format" alt="Product Logo" /> </td> <td style="flex-grow: 2; padding: 10px; text-align: justify" > <p> Findmyaitool.com is a website that provides comprehensive and up-to-date information on various AI tools and resources. The website aims to simplify the process of finding and selecting the right AI tool for your specific needs. </p> </td> <td> <a href="https://www.producthunt.com/posts/findmyaitool?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Newsletter+%28ID%3A+96878%29" target="_blank" > <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" style="margin-top: 100px" > <path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM9.71002 19.6674C8.74743 17.6259 8.15732 15.3742 8.02731 13H4.06189C4.458 16.1765 6.71639 18.7747 9.71002 19.6674ZM10.0307 13C10.1811 15.4388 10.8778 17.7297 12 19.752C13.1222 17.7297 13.8189 15.4388 13.9693 13H10.0307ZM19.9381 13H15.9727C15.8427 15.3742 15.2526 17.6259 14.29 19.6674C17.2836 18.7747 19.542 16.1765 19.9381 13ZM4.06189 11H8.02731C8.15732 8.62577 8.74743 6.37407 9.71002 4.33256C6.71639 5.22533 4.458 7.8235 4.06189 11ZM10.0307 11H13.9693C13.8189 8.56122 13.1222 6.27025 12 4.24799C10.8778 6.27025 10.1811 8.56122 10.0307 11ZM14.29 4.33256C15.2526 6.37407 15.8427 8.62577 15.9727 11H19.9381C19.542 7.8235 17.2836 5.22533 14.29 4.33256Z" fill="#000" ></path></svg ></a> </td> </tr> </tbody> </table> </div>
+        <td style="margin: 50px;display: flex; justify-content: center; align-items: center;flex-direction: column">
+            <h1 style="font-size: min(7vh,45px);height: 10px">🚀 Top Product </h1>
+            <h4 style="font-size: min(4vh,25px);height: 10px">🔍 Of the week_ </h4>
+            <div style="max-width: 500px; width: min(500px,85vh); height: 300px; margin: 50px; border-radius: 38px; background: #f1faee; box-shadow: 28px 28px 30px #c3cbc1, -28px -28px 30px #ffffff; display: flex; justify-content: center; align-items: center; padding: 10px; " > <table style=" display: flex; justify-content: center; align-items: center; flex-direction: column; " > <tbody> <tr style=" display: flex; align-items: center; justify-content: center; flex-direction: column; " > <td><h1>🔥 1 - Blueprints by Zeet</h1></td> <td style="margin-top: -30px"> <h3>Create self-service developer platforms for your cloud(s)</h3> </td> </tr> <tr> <td> <img style=" border-radius: 15px; background: #f1faee; box-shadow: 18px 18px 30px #c3cbc1, -18px -18px 30px #ffffff; " width="150px" src="https://ph-files.imgix.net/49a36efb-87b5-423a-b508-35c747cd506f.jpeg?auto=format" alt="Product Logo" /> </td> <td style="flex-grow: 2; padding: 10px; text-align: justify" > <p> The Zeet Developer Platform is a centralized infrastructure control plane that encourages self-service infrastructure through delightful interfaces. Turn your IaC packages into Blueprints, so any member of your team can manage the underlying resources. </p> </td> <td> <a href="https://www.producthunt.com/posts/blueprints-by-zeet?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Newsletter+%28ID%3A+96878%29" target="_blank" > <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" style="margin-top: 100px" > <path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM9.71002 19.6674C8.74743 17.6259 8.15732 15.3742 8.02731 13H4.06189C4.458 16.1765 6.71639 18.7747 9.71002 19.6674ZM10.0307 13C10.1811 15.4388 10.8778 17.7297 12 19.752C13.1222 17.7297 13.8189 15.4388 13.9693 13H10.0307ZM19.9381 13H15.9727C15.8427 15.3742 15.2526 17.6259 14.29 19.6674C17.2836 18.7747 19.542 16.1765 19.9381 13ZM4.06189 11H8.02731C8.15732 8.62577 8.74743 6.37407 9.71002 4.33256C6.71639 5.22533 4.458 7.8235 4.06189 11ZM10.0307 11H13.9693C13.8189 8.56122 13.1222 6.27025 12 4.24799C10.8778 6.27025 10.1811 8.56122 10.0307 11ZM14.29 4.33256C15.2526 6.37407 15.8427 8.62577 15.9727 11H19.9381C19.542 7.8235 17.2836 5.22533 14.29 4.33256Z" fill="#000" ></path></svg ></a> </td> </tr> </tbody> </table> </div><div style="max-width: 500px; width: min(500px,85vh); height: 300px; margin: 50px; border-radius: 38px; background: #f1faee; box-shadow: 28px 28px 30px #c3cbc1, -28px -28px 30px #ffffff; display: flex; justify-content: center; align-items: center; padding: 10px; " > <table style=" display: flex; justify-content: center; align-items: center; flex-direction: column; " > <tbody> <tr style=" display: flex; align-items: center; justify-content: center; flex-direction: column; " > <td><h1>🔥 2 - Shuffle Assistant</h1></td> <td style="margin-top: -30px"> <h3>Generate website templates by engaging with ChatGPT</h3> </td> </tr> <tr> <td> <img style=" border-radius: 15px; background: #f1faee; box-shadow: 18px 18px 30px #c3cbc1, -18px -18px 30px #ffffff; " width="150px" src="https://ph-files.imgix.net/84d91104-bfaf-4d23-afbd-5ce47fc6d58c.gif?auto=format" alt="Product Logo" /> </td> <td style="flex-grow: 2; padding: 10px; text-align: justify" > <p> Create professional and eye-catching website templates with our AI-powered visual editor fuelled by ChatGPT. Shuffle Assistant works with Tailwind CSS, Bootstrap, and Bulma. </p> </td> <td> <a href="https://www.producthunt.com/posts/shuffle-assistant?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Newsletter+%28ID%3A+96878%29" target="_blank" > <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" style="margin-top: 100px" > <path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM9.71002 19.6674C8.74743 17.6259 8.15732 15.3742 8.02731 13H4.06189C4.458 16.1765 6.71639 18.7747 9.71002 19.6674ZM10.0307 13C10.1811 15.4388 10.8778 17.7297 12 19.752C13.1222 17.7297 13.8189 15.4388 13.9693 13H10.0307ZM19.9381 13H15.9727C15.8427 15.3742 15.2526 17.6259 14.29 19.6674C17.2836 18.7747 19.542 16.1765 19.9381 13ZM4.06189 11H8.02731C8.15732 8.62577 8.74743 6.37407 9.71002 4.33256C6.71639 5.22533 4.458 7.8235 4.06189 11ZM10.0307 11H13.9693C13.8189 8.56122 13.1222 6.27025 12 4.24799C10.8778 6.27025 10.1811 8.56122 10.0307 11ZM14.29 4.33256C15.2526 6.37407 15.8427 8.62577 15.9727 11H19.9381C19.542 7.8235 17.2836 5.22533 14.29 4.33256Z" fill="#000" ></path></svg ></a> </td> </tr> </tbody> </table> </div><div style="max-width: 500px; width: min(500px,85vh); height: 300px; margin: 50px; border-radius: 38px; background: #f1faee; box-shadow: 28px 28px 30px #c3cbc1, -28px -28px 30px #ffffff; display: flex; justify-content: center; align-items: center; padding: 10px; " > <table style=" display: flex; justify-content: center; align-items: center; flex-direction: column; " > <tbody> <tr style=" display: flex; align-items: center; justify-content: center; flex-direction: column; " > <td><h1>🔥 3 - Autometrics</h1></td> <td style="margin-top: -30px"> <h3>Developer-first observability framework</h3> </td> </tr> <tr> <td> <img style=" border-radius: 15px; background: #f1faee; box-shadow: 18px 18px 30px #c3cbc1, -18px -18px 30px #ffffff; " width="150px" src="https://ph-files.imgix.net/210a6e4b-506b-4afd-85b9-f30947641940.png?auto=format" alt="Product Logo" /> </td> <td style="flex-grow: 2; padding: 10px; text-align: justify" > <p> Autometrics is an open source framework that makes it easy to understand the error rate, response time, and production usage of any function in your code. Available in Rust, TypeScript, Python and Go. </p> </td> <td> <a href="https://www.producthunt.com/posts/autometrics-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Newsletter+%28ID%3A+96878%29" target="_blank" > <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" style="margin-top: 100px" > <path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM9.71002 19.6674C8.74743 17.6259 8.15732 15.3742 8.02731 13H4.06189C4.458 16.1765 6.71639 18.7747 9.71002 19.6674ZM10.0307 13C10.1811 15.4388 10.8778 17.7297 12 19.752C13.1222 17.7297 13.8189 15.4388 13.9693 13H10.0307ZM19.9381 13H15.9727C15.8427 15.3742 15.2526 17.6259 14.29 19.6674C17.2836 18.7747 19.542 16.1765 19.9381 13ZM4.06189 11H8.02731C8.15732 8.62577 8.74743 6.37407 9.71002 4.33256C6.71639 5.22533 4.458 7.8235 4.06189 11ZM10.0307 11H13.9693C13.8189 8.56122 13.1222 6.27025 12 4.24799C10.8778 6.27025 10.1811 8.56122 10.0307 11ZM14.29 4.33256C15.2526 6.37407 15.8427 8.62577 15.9727 11H19.9381C19.542 7.8235 17.2836 5.22533 14.29 4.33256Z" fill="#000" ></path></svg ></a> </td> </tr> </tbody> </table> </div><div style="max-width: 500px; width: min(500px,85vh); height: 300px; margin: 50px; border-radius: 38px; background: #f1faee; box-shadow: 28px 28px 30px #c3cbc1, -28px -28px 30px #ffffff; display: flex; justify-content: center; align-items: center; padding: 10px; " > <table style=" display: flex; justify-content: center; align-items: center; flex-direction: column; " > <tbody> <tr style=" display: flex; align-items: center; justify-content: center; flex-direction: column; " > <td><h1>🔥 4 - Findmyaitool</h1></td> <td style="margin-top: -30px"> <h3>Discover AI tools for your business</h3> </td> </tr> <tr> <td> <img style=" border-radius: 15px; background: #f1faee; box-shadow: 18px 18px 30px #c3cbc1, -18px -18px 30px #ffffff; " width="150px" src="https://ph-files.imgix.net/8de4d250-f093-4167-a562-42c4af5ba1a1.png?auto=format" alt="Product Logo" /> </td> <td style="flex-grow: 2; padding: 10px; text-align: justify" > <p> Findmyaitool.com is a website that provides comprehensive and up-to-date information on various AI tools and resources. The website aims to simplify the process of finding and selecting the right AI tool for your specific needs. </p> </td> <td> <a href="https://www.producthunt.com/posts/findmyaitool?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Newsletter+%28ID%3A+96878%29" target="_blank" > <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" style="margin-top: 100px" > <path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM9.71002 19.6674C8.74743 17.6259 8.15732 15.3742 8.02731 13H4.06189C4.458 16.1765 6.71639 18.7747 9.71002 19.6674ZM10.0307 13C10.1811 15.4388 10.8778 17.7297 12 19.752C13.1222 17.7297 13.8189 15.4388 13.9693 13H10.0307ZM19.9381 13H15.9727C15.8427 15.3742 15.2526 17.6259 14.29 19.6674C17.2836 18.7747 19.542 16.1765 19.9381 13ZM4.06189 11H8.02731C8.15732 8.62577 8.74743 6.37407 9.71002 4.33256C6.71639 5.22533 4.458 7.8235 4.06189 11ZM10.0307 11H13.9693C13.8189 8.56122 13.1222 6.27025 12 4.24799C10.8778 6.27025 10.1811 8.56122 10.0307 11ZM14.29 4.33256C15.2526 6.37407 15.8427 8.62577 15.9727 11H19.9381C19.542 7.8235 17.2836 5.22533 14.29 4.33256Z" fill="#000" ></path></svg ></a> </td> </tr> </tbody> </table> </div><div style="max-width: 500px; width: min(500px,85vh); height: 300px; margin: 50px; border-radius: 38px; background: #f1faee; box-shadow: 28px 28px 30px #c3cbc1, -28px -28px 30px #ffffff; display: flex; justify-content: center; align-items: center; padding: 10px; " > <table style=" display: flex; justify-content: center; align-items: center; flex-direction: column; " > <tbody> <tr style=" display: flex; align-items: center; justify-content: center; flex-direction: column; " > <td><h1>🔥 5 - Velvet</h1></td> <td style="margin-top: -30px"> <h3>App onboarding for growth teams</h3> </td> </tr> <tr> <td> <img style=" border-radius: 15px; background: #f1faee; box-shadow: 18px 18px 30px #c3cbc1, -18px -18px 30px #ffffff; " width="150px" src="https://ph-files.imgix.net/248e25e8-51c3-4586-83e0-8e3cd2fe783e.png?auto=format" alt="Product Logo" /> </td> <td style="flex-grow: 2; padding: 10px; text-align: justify" > <p> Create accounts and accept payments on day one. Optimize your conversion and retention, and save months of development time. 🔮 Join today for early access 🎟️ Authentication, payments, data 💻 Hosted checkout pages 📱 SDK </p> </td> <td> <a href="https://www.producthunt.com/posts/velvet-6e2b2882-0c42-4cca-a97f-f562244281c0?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Newsletter+%28ID%3A+96878%29" target="_blank" > <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" style="margin-top: 100px" > <path d="M12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22ZM9.71002 19.6674C8.74743 17.6259 8.15732 15.3742 8.02731 13H4.06189C4.458 16.1765 6.71639 18.7747 9.71002 19.6674ZM10.0307 13C10.1811 15.4388 10.8778 17.7297 12 19.752C13.1222 17.7297 13.8189 15.4388 13.9693 13H10.0307ZM19.9381 13H15.9727C15.8427 15.3742 15.2526 17.6259 14.29 19.6674C17.2836 18.7747 19.542 16.1765 19.9381 13ZM4.06189 11H8.02731C8.15732 8.62577 8.74743 6.37407 9.71002 4.33256C6.71639 5.22533 4.458 7.8235 4.06189 11ZM10.0307 11H13.9693C13.8189 8.56122 13.1222 6.27025 12 4.24799C10.8778 6.27025 10.1811 8.56122 10.0307 11ZM14.29 4.33256C15.2526 6.37407 15.8427 8.62577 15.9727 11H19.9381C19.542 7.8235 17.2836 5.22533 14.29 4.33256Z" fill="#000" ></path></svg ></a> </td> </tr> </tbody> </table> </div>
         </td>
     </tr>
-    <tr id="about" style="height: 450px; width: 600px">
+    <tr id="about" style="height: 450px; width: min(600px,100vh);max-width: 600px">
         <td style="max-width: 600px">
-            <table style="width: 600px; height: 100%; border-spacing: 0">
+            <table style="width: min(600px,100vh); height: 100%; border-spacing: 0;max-width: 600px">
                 <tbody>
                 <tr>
-                    <td style="width: 300px; background-color: #a8dadc">
+                    <td style="width: min(300px,50vh); background-color: #a8dadc;max-width: 300px">
                         <table
                                 style="
                         display: flex;
@@ -259,7 +275,7 @@
                             </tr>
                         </table>
                     </td>
-                    <td style="width: 300px; background-color: #457b9d">
+                    <td style="width: min(300px,50vh); background-color: #457b9d;max-width: 300px">
                         <table
                                 style="
                         display: flex;
@@ -280,7 +296,7 @@
                                     <h2
                                             style="
                               font-weight: bolder;
-                              font-size: 30px;
+                              font-size: min(30px,5vh);
                               height: 0;
                             "
                                     >
@@ -291,7 +307,7 @@
                               padding: 10px;
                               text-align: justify;
                               font-family: 'Proxima Nova Black', sans-serif;
-                              font-size: 20px;
+                              font-size: min(20px,4vh);
                             "
                                     >
                                         Étudiant en informatique passionné par le
@@ -314,7 +330,7 @@
     </tr>
     <tr
             id="footer"
-            style="max-width: 600px; height: 250px; background-color: #1d3557"
+            style="max-width: 600px; height: 250px; background-color: #1d3557;width: min(600px,100vh)"
     >
         <td>
             <table
