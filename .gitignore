@@ -1,2 +1,4 @@
-./jsFiles/apiToken.mjs
-./.idea
+jsFiles/apiToken.mjs
+.idea
+
+.env
