@@ -8,7 +8,7 @@
 Le script utilise l'api de **[ProductHunt](https://api.producthunt.com/v2/docs)** pour récupérer les 5 outils les plus populaires de la semaine en rapport avec "developer-tools".
 Il remplace ensuite une partie d'une template HTML pour ajouter un tableau avec ces 5 produits.
 Une NewsLetter automatique sous forme d'un fichier en *.html* est donc générée automatiquement.
-Il suffit donc de modifier le fichier template pour synchroniser les changements sur les futures newletter.
+Il suffit donc de modifier le fichier template pour synchroniser les changements sur les futures Newsletter.
 
 ## Design
 Utilisation du site [Coolors](https://coolors.co/) et de la palette :
