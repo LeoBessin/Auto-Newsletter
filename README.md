@@ -8,7 +8,7 @@
 Le script utilise l'api de **[ProductHunt](https://api.producthunt.com/v2/docs)** pour récupérer les 5 outils les plus populaires de la semaine en rapport avec "developer-tools".
 Il remplace ensuite une partie d'une template HTML pour ajouter un tableau avec ces 5 produits.
 Une NewsLetter automatique sous forme d'un fichier en *.html* est donc générée automatiquement.
-Il suffit donc de modifier le fichier template pour synchroniser les changements sur les futures Newsletter.
+Il suffit donc de modifier le fichier template pour synchroniser les changements sur les futures Newsletter. Utilisation de l'intelligence artificielle [ChatGPT](https://chat.openai.com) pour la génération de texte du fichier template et source d'inspiration pour le nom de la NewsLetter.
 
 ## Design
 Utilisation du site [Coolors](https://coolors.co/) et de la palette :
