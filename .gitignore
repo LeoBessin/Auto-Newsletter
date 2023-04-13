@@ -1,1 +1,2 @@
-!/jsFiles/apiToken.mjs
+./jsFiles/apiToken.mjs
+./.idea
