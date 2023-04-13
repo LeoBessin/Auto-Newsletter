@@ -15,7 +15,7 @@ Utilisation du site [Coolors](https://coolors.co/) et de la palette :
 
 ![img.png](assets/img.png)
 
-Utilisation de la police :
+Utilisation de la police d'écriture **Proxima Nova** :
 
 ![img_1.png](assets/img_1.png)
 
