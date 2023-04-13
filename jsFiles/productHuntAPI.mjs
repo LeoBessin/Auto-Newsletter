@@ -16,7 +16,7 @@ export async function getLastProductHunt(nbOfResponse = 5, typeOrder = "RANKING"
       nbOfResponse +
       ', featured: true, topic: "developer-tools", order: ' +
       typeOrder +
-      ") {\r\n    edges {\r\n      node {\r\n        id\r\n        name\r\n        tagline\r\n        url\r\n         thumbnail {\r\n          url\r\n        }\r\n      }\r\n    }\r\n  }\r\n}",
+      ") {\r\n    edges {\r\n      node {\r\n        id\r\n        name\r\n        tagline\r\n        url\r\n        description\r\n         thumbnail {\r\n          url\r\n        }\r\n      }\r\n    }\r\n  }\r\n}",
     variables: {},
   });
   let requestOptions = {
